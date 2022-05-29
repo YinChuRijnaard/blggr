@@ -17,9 +17,9 @@
   },
   "prettier": {
     "arrowParens": "always",
-    "singleQuote": true,
+    "singleQuote": false,
     "tabWidth": 2,
     "trailingComma": "none",
-    "semi": false
+    "semi": true
   }
 }

@@ -1,7 +1,7 @@
-import 'nextra-theme-blog/style.css'
-import Head from 'next/head'
+import "nextra-theme-blog/style.css";
+import Head from "next/head";
 
-import '../styles/main.css'
+import "../styles/main.css";
 
 export default function Nextra({ Component, pageProps }) {
   return (
@@ -23,5 +23,5 @@ export default function Nextra({ Component, pageProps }) {
       </Head>
       <Component {...pageProps} />
     </>
-  )
+  );
 }
